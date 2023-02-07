@@ -1,0 +1,43 @@
+:root{
+    --lato: 'Lato', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+.lato{
+    font-family: var(--lato);
+}
+.roboto{
+    font-family: var(--roboto);
+}
+
+#header .fixed{
+    position: fixed;
+    width: 33%;
+    height: 100vh;
+    background-image: url(/img/bgi4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header .fixed img{
+    width: 45%;
+    height: 30%;    
+}
+
+
+@media screen  and (max-width:768px) {
+    #header .fixed{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url(/img/bgi4.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      
+    }
+    
+}
