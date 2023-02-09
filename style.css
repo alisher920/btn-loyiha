@@ -9,7 +9,6 @@
 .roboto{
     font-family: var(--roboto);
 }
-
 #header .fixed{
     position: fixed;
     width: 33%;
